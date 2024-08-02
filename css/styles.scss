@@ -13,7 +13,8 @@ $azul-cielo : #007DB8;
 h1, h2, h3, h4, h5, h6 {
     color: $azul !important;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900 !important;
+    margin: 0;
 }
 // Header Principal
 .principal {
@@ -47,5 +48,15 @@ h1, h2, h3, h4, h5, h6 {
                 background-color: $azul-cielo !important;
             }
         }
+    }
+}
+
+// Footer
+footer {
+    background: $azul;
+    color: white;
+    a {
+        color: white;
+        text-transform: none;
     }
 }

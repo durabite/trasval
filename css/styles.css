@@ -6,7 +6,8 @@
 h1, h2, h3, h4, h5, h6 {
   color: #00438E !important;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900 !important;
+  margin: 0;
 }
 
 .principal {
@@ -40,4 +41,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .principal .btn-group .dropdown-menu .dropdown-item:hover {
   background-color: #007DB8 !important;
+}
+
+footer {
+  background: #00438E;
+  color: white;
+}
+footer a {
+  color: white;
+  text-transform: none;
 }/*# sourceMappingURL=styles.css.map */
